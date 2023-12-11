@@ -1,9 +1,9 @@
-package com.example.alcoholjarangserver.common
+package com.heroleggo.alcoholjarangserver.common
 
 class CommonResponse<T>(
-    val result: Result,
-    val data: T? = null,
-    val message: String? = null
+        val result: Result,
+        val data: T? = null,
+        val message: String? = null
 ) {
     companion object {
         fun <T> success(data: T, message: String) = CommonResponse(Result.SUCCESS, data, message);

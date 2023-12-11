@@ -1,4 +1,4 @@
-package com.example.alcoholjarangserver
+package com.heroleggo.alcoholjarangserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
